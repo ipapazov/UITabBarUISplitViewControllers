@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C4812414548DC700A664D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812314548DC700A664D5 /* UIKit.framework */; };
+		78C4812614548DC700A664D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812514548DC700A664D5 /* Foundation.framework */; };
+		78C4812814548DC700A664D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812714548DC700A664D5 /* CoreGraphics.framework */; };
+		78C4812E14548DC700A664D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C4812C14548DC700A664D5 /* InfoPlist.strings */; };
+		78C4813014548DC700A664D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4812F14548DC700A664D5 /* main.m */; };
+		78C4813414548DC700A664D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4813314548DC700A664D5 /* AppDelegate.m */; };
+		78C4813C14548DC700A664D5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4813B14548DC700A664D5 /* SenTestingKit.framework */; };
+		78C4813D14548DC700A664D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812314548DC700A664D5 /* UIKit.framework */; };
+		78C4813E14548DC700A664D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812514548DC700A664D5 /* Foundation.framework */; };
+		78C4814614548DC700A664D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C4814414548DC700A664D5 /* InfoPlist.strings */; };
+		78C4814914548DC700A664D5 /* UITabBarUISplitViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4814814548DC700A664D5 /* UITabBarUISplitViewControllersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C4813F14548DC700A664D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C4811614548DC600A664D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C4811E14548DC700A664D5;
+			remoteInfo = UITabBarUISplitViewControllers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C4811F14548DC700A664D5 /* UITabBarUISplitViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarUISplitViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C4812314548DC700A664D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78C4812514548DC700A664D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78C4812714548DC700A664D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78C4812B14548DC700A664D5 /* UITabBarUISplitViewControllers-Info.plist */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllers-Info.plist"; sourceTree = "<group>"; };
+		78C4812D14548DC700A664D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C4812F14548DC700A664D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78C4813114548DC700A664D5 /* UITabBarUISplitViewControllers-Prefix.pch */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		78C4813214548DC700A664D5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		78C4813314548DC700A664D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78C4813A14548DC700A664D5 /* UITabBarUISplitViewControllersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarUISplitViewControllersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C4813B14548DC700A664D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78C4814314548DC700A664D5 /* UITabBarUISplitViewControllersTests-Info.plist */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllersTests-Info.plist"; sourceTree = "<group>"; };
+		78C4814514548DC700A664D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C4814714548DC700A664D5 /* UITabBarUISplitViewControllersTests.h */ = {isa = PBXFileReference; path = UITabBarUISplitViewControllersTests.h; sourceTree = "<group>"; };
+		78C4814814548DC700A664D5 /* UITabBarUISplitViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarUISplitViewControllersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C4811C14548DC700A664D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4812414548DC700A664D5 /* UIKit.framework in Frameworks */,
+				78C4812614548DC700A664D5 /* Foundation.framework in Frameworks */,
+				78C4812814548DC700A664D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C4813614548DC700A664D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4813C14548DC700A664D5 /* SenTestingKit.framework in Frameworks */,
+				78C4813D14548DC700A664D5 /* UIKit.framework in Frameworks */,
+				78C4813E14548DC700A664D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C4811414548DC600A664D5 = {
+			isa = PBXGroup;
+			children = (
+				78C4812914548DC700A664D5 /* UITabBarUISplitViewControllers */,
+				78C4814114548DC700A664D5 /* UITabBarUISplitViewControllersTests */,
+				78C4812214548DC700A664D5 /* Frameworks */,
+				78C4812014548DC700A664D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C4812014548DC700A664D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C4811F14548DC700A664D5 /* UITabBarUISplitViewControllers.app */,
+				78C4813A14548DC700A664D5 /* UITabBarUISplitViewControllersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C4812214548DC700A664D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C4812314548DC700A664D5 /* UIKit.framework */,
+				78C4812514548DC700A664D5 /* Foundation.framework */,
+				78C4812714548DC700A664D5 /* CoreGraphics.framework */,
+				78C4813B14548DC700A664D5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C4812914548DC700A664D5 /* UITabBarUISplitViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78C4813214548DC700A664D5 /* AppDelegate.h */,
+				78C4813314548DC700A664D5 /* AppDelegate.m */,
+				78C4812A14548DC700A664D5 /* Supporting Files */,
+			);
+			path = UITabBarUISplitViewControllers;
+			sourceTree = "<group>";
+		};
+		78C4812A14548DC700A664D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C4812B14548DC700A664D5 /* UITabBarUISplitViewControllers-Info.plist */,
+				78C4812C14548DC700A664D5 /* InfoPlist.strings */,
+				78C4812F14548DC700A664D5 /* main.m */,
+				78C4813114548DC700A664D5 /* UITabBarUISplitViewControllers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C4814114548DC700A664D5 /* UITabBarUISplitViewControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C4814714548DC700A664D5 /* UITabBarUISplitViewControllersTests.h */,
+				78C4814814548DC700A664D5 /* UITabBarUISplitViewControllersTests.m */,
+				78C4814214548DC700A664D5 /* Supporting Files */,
+			);
+			path = UITabBarUISplitViewControllersTests;
+			sourceTree = "<group>";
+		};
+		78C4814214548DC700A664D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C4814314548DC700A664D5 /* UITabBarUISplitViewControllersTests-Info.plist */,
+				78C4814414548DC700A664D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C4811E14548DC700A664D5 /* UITabBarUISplitViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C4814C14548DC700A664D5 /* Build configuration list for PBXNativeTarget "UITabBarUISplitViewControllers" */;
+			buildPhases = (
+				78C4811B14548DC700A664D5 /* Sources */,
+				78C4811C14548DC700A664D5 /* Frameworks */,
+				78C4811D14548DC700A664D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITabBarUISplitViewControllers;
+			productName = UITabBarUISplitViewControllers;
+			productReference = 78C4811F14548DC700A664D5 /* UITabBarUISplitViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C4813914548DC700A664D5 /* UITabBarUISplitViewControllersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C4814F14548DC700A664D5 /* Build configuration list for PBXNativeTarget "UITabBarUISplitViewControllersTests" */;
+			buildPhases = (
+				78C4813514548DC700A664D5 /* Sources */,
+				78C4813614548DC700A664D5 /* Frameworks */,
+				78C4813714548DC700A664D5 /* Resources */,
+				78C4813814548DC700A664D5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C4814014548DC700A664D5 /* PBXTargetDependency */,
+			);
+			name = UITabBarUISplitViewControllersTests;
+			productName = UITabBarUISplitViewControllersTests;
+			productReference = 78C4813A14548DC700A664D5 /* UITabBarUISplitViewControllersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C4811614548DC600A664D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Chicago";
+			};
+			buildConfigurationList = 78C4811914548DC600A664D5 /* Build configuration list for PBXProject "UITabBarUISplitViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78C4811414548DC600A664D5;
+			productRefGroup = 78C4812014548DC700A664D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C4811E14548DC700A664D5 /* UITabBarUISplitViewControllers */,
+				78C4813914548DC700A664D5 /* UITabBarUISplitViewControllersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C4811D14548DC700A664D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4812E14548DC700A664D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C4813714548DC700A664D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4814614548DC700A664D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C4813814548DC700A664D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C4811B14548DC700A664D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4813014548DC700A664D5 /* main.m in Sources */,
+				78C4813414548DC700A664D5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C4813514548DC700A664D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C4814914548DC700A664D5 /* UITabBarUISplitViewControllersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C4814014548DC700A664D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C4811E14548DC700A664D5 /* UITabBarUISplitViewControllers */;
+			targetProxy = 78C4813F14548DC700A664D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C4812C14548DC700A664D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C4812D14548DC700A664D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78C4814414548DC700A664D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C4814514548DC700A664D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C4814A14548DC700A664D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C4814B14548DC700A664D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C4814D14548DC700A664D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78C4814E14548DC700A664D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78C4815014548DC700A664D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITabBarUISplitViewControllers.app/UITabBarUISplitViewControllers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarUISplitViewControllersTests/UITabBarUISplitViewControllersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78C4815114548DC700A664D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITabBarUISplitViewControllers.app/UITabBarUISplitViewControllers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarUISplitViewControllers/UITabBarUISplitViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarUISplitViewControllersTests/UITabBarUISplitViewControllersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C4811914548DC600A664D5 /* Build configuration list for PBXProject "UITabBarUISplitViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C4814A14548DC700A664D5 /* Debug */,
+				78C4814B14548DC700A664D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C4814C14548DC700A664D5 /* Build configuration list for PBXNativeTarget "UITabBarUISplitViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C4814D14548DC700A664D5 /* Debug */,
+				78C4814E14548DC700A664D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78C4814F14548DC700A664D5 /* Build configuration list for PBXNativeTarget "UITabBarUISplitViewControllersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C4815014548DC700A664D5 /* Debug */,
+				78C4815114548DC700A664D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C4811614548DC600A664D5 /* Project object */;
+}
