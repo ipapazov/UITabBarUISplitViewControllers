@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MyViewController_iPhone.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
 @implementation AppDelegate
 
@@ -21,8 +24,48 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    // Check to see on what device we are running the app
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        MyViewController_iPhone *mvciPhone = [[[MyViewController_iPhone alloc] init] autorelease];
+        UINavigationController *nvc = [[[UINavigationController alloc] initWithRootViewController:mvciPhone] autorelease];
+        
+        [nvc setNavigationBarHidden:YES];
+        self.window.rootViewController = nvc;
+    } 
+    else
+    {
+
+        // Create veiw controller and set up navigation controller for master view
+        MasterViewController *mvc = [[[MasterViewController alloc] init] autorelease];
+        UINavigationController *mnc = [[[UINavigationController alloc] 
+                                        initWithRootViewController:mvc] autorelease];
+        
+        // Create veiw controller and set up navigation controller for detail view
+        DetailViewController *dvc = [[[DetailViewController alloc] init] autorelease];
+        UINavigationController *dnc = [[[UINavigationController alloc] 
+                                        initWithRootViewController:dvc] autorelease];
+        
+        // So we send messages from master to detail view controller 
+        mvc.delegate = dvc;
+        
+        // Add the view controlers to an array
+        NSArray *splitViewControllers = [NSArray arrayWithObjects:mnc, dnc, nil];
+        
+        // Set up split view and add it to the sub view
+        UISplitViewController *svc = [[[UISplitViewController alloc] init] autorelease];
+        [svc setViewControllers:splitViewControllers];
+        
+        // So we can send messages from split view controller to the detail view controller when rotating
+        svc.delegate = dvc;
+        
+        self.window.rootViewController = svc;
+        
+    }
+    
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

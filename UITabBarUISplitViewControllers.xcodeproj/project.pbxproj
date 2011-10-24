@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788EE0711454CFD3002C6BDC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788EE0701454CFD3002C6BDC /* MessageUI.framework */; };
 		78C4812414548DC700A664D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812314548DC700A664D5 /* UIKit.framework */; };
 		78C4812614548DC700A664D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812514548DC700A664D5 /* Foundation.framework */; };
 		78C4812814548DC700A664D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812714548DC700A664D5 /* CoreGraphics.framework */; };
@@ -18,6 +19,11 @@
 		78C4813E14548DC700A664D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C4812514548DC700A664D5 /* Foundation.framework */; };
 		78C4814614548DC700A664D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C4814414548DC700A664D5 /* InfoPlist.strings */; };
 		78C4814914548DC700A664D5 /* UITabBarUISplitViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4814814548DC700A664D5 /* UITabBarUISplitViewControllersTests.m */; };
+		78C4815A145492F900A664D5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C48159145492F900A664D5 /* MasterViewController.m */; };
+		78C4815E1454931F00A664D5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4815D1454931F00A664D5 /* DetailViewController.m */; };
+		78C4816214549A6200A664D5 /* StoriesViewController_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4816114549A6200A664D5 /* StoriesViewController_IPhone.m */; };
+		78C4816514549A8300A664D5 /* FavoritesViewController_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4816414549A8300A664D5 /* FavoritesViewController_IPhone.m */; };
+		78C4816C14549CAD00A664D5 /* MyViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4816B14549CAD00A664D5 /* MyViewController_iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +37,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		788EE0701454CFD3002C6BDC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		78C4811F14548DC700A664D5 /* UITabBarUISplitViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarUISplitViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4812314548DC700A664D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78C4812514548DC700A664D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78C4812714548DC700A664D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78C4812B14548DC700A664D5 /* UITabBarUISplitViewControllers-Info.plist */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllers-Info.plist"; sourceTree = "<group>"; };
+		78C4812B14548DC700A664D5 /* UITabBarUISplitViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITabBarUISplitViewControllers-Info.plist"; sourceTree = "<group>"; };
 		78C4812D14548DC700A664D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C4812F14548DC700A664D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78C4813114548DC700A664D5 /* UITabBarUISplitViewControllers-Prefix.pch */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllers-Prefix.pch"; sourceTree = "<group>"; };
-		78C4813214548DC700A664D5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		78C4813114548DC700A664D5 /* UITabBarUISplitViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarUISplitViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		78C4813214548DC700A664D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78C4813314548DC700A664D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		78C4813A14548DC700A664D5 /* UITabBarUISplitViewControllersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarUISplitViewControllersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4813B14548DC700A664D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		78C4814314548DC700A664D5 /* UITabBarUISplitViewControllersTests-Info.plist */ = {isa = PBXFileReference; path = "UITabBarUISplitViewControllersTests-Info.plist"; sourceTree = "<group>"; };
+		78C4814314548DC700A664D5 /* UITabBarUISplitViewControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITabBarUISplitViewControllersTests-Info.plist"; sourceTree = "<group>"; };
 		78C4814514548DC700A664D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78C4814714548DC700A664D5 /* UITabBarUISplitViewControllersTests.h */ = {isa = PBXFileReference; path = UITabBarUISplitViewControllersTests.h; sourceTree = "<group>"; };
+		78C4814714548DC700A664D5 /* UITabBarUISplitViewControllersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabBarUISplitViewControllersTests.h; sourceTree = "<group>"; };
 		78C4814814548DC700A664D5 /* UITabBarUISplitViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarUISplitViewControllersTests.m; sourceTree = "<group>"; };
+		78C48158145492F900A664D5 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		78C48159145492F900A664D5 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		78C4815C1454931F00A664D5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		78C4815D1454931F00A664D5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		78C4815F145494FE00A664D5 /* MasterDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterDetailDelegate.h; sourceTree = "<group>"; };
+		78C4816014549A6200A664D5 /* StoriesViewController_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesViewController_IPhone.h; sourceTree = "<group>"; };
+		78C4816114549A6200A664D5 /* StoriesViewController_IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesViewController_IPhone.m; sourceTree = "<group>"; };
+		78C4816314549A8300A664D5 /* FavoritesViewController_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController_IPhone.h; sourceTree = "<group>"; };
+		78C4816414549A8300A664D5 /* FavoritesViewController_IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController_IPhone.m; sourceTree = "<group>"; };
+		78C4816A14549CAD00A664D5 /* MyViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController_iPhone.h; sourceTree = "<group>"; };
+		78C4816B14549CAD00A664D5 /* MyViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController_iPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788EE0711454CFD3002C6BDC /* MessageUI.framework in Frameworks */,
 				78C4812414548DC700A664D5 /* UIKit.framework in Frameworks */,
 				78C4812614548DC700A664D5 /* Foundation.framework in Frameworks */,
 				78C4812814548DC700A664D5 /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +114,7 @@
 		78C4812214548DC700A664D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				788EE0701454CFD3002C6BDC /* MessageUI.framework */,
 				78C4812314548DC700A664D5 /* UIKit.framework */,
 				78C4812514548DC700A664D5 /* Foundation.framework */,
 				78C4812714548DC700A664D5 /* CoreGraphics.framework */,
@@ -109,6 +129,17 @@
 				78C4813214548DC700A664D5 /* AppDelegate.h */,
 				78C4813314548DC700A664D5 /* AppDelegate.m */,
 				78C4812A14548DC700A664D5 /* Supporting Files */,
+				78C48158145492F900A664D5 /* MasterViewController.h */,
+				78C48159145492F900A664D5 /* MasterViewController.m */,
+				78C4815C1454931F00A664D5 /* DetailViewController.h */,
+				78C4815D1454931F00A664D5 /* DetailViewController.m */,
+				78C4815F145494FE00A664D5 /* MasterDetailDelegate.h */,
+				78C4816014549A6200A664D5 /* StoriesViewController_IPhone.h */,
+				78C4816114549A6200A664D5 /* StoriesViewController_IPhone.m */,
+				78C4816314549A8300A664D5 /* FavoritesViewController_IPhone.h */,
+				78C4816414549A8300A664D5 /* FavoritesViewController_IPhone.m */,
+				78C4816A14549CAD00A664D5 /* MyViewController_iPhone.h */,
+				78C4816B14549CAD00A664D5 /* MyViewController_iPhone.m */,
 			);
 			path = UITabBarUISplitViewControllers;
 			sourceTree = "<group>";
@@ -251,6 +282,11 @@
 			files = (
 				78C4813014548DC700A664D5 /* main.m in Sources */,
 				78C4813414548DC700A664D5 /* AppDelegate.m in Sources */,
+				78C4815A145492F900A664D5 /* MasterViewController.m in Sources */,
+				78C4815E1454931F00A664D5 /* DetailViewController.m in Sources */,
+				78C4816214549A6200A664D5 /* StoriesViewController_IPhone.m in Sources */,
+				78C4816514549A8300A664D5 /* FavoritesViewController_IPhone.m in Sources */,
+				78C4816C14549CAD00A664D5 /* MyViewController_iPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +448,7 @@
 				78C4814E14548DC700A664D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C4814F14548DC700A664D5 /* Build configuration list for PBXNativeTarget "UITabBarUISplitViewControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				78C4815114548DC700A664D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
